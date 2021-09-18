@@ -5,18 +5,18 @@
 #include <iostream>
 
 int main() {
-  int sum = 0, val = 10;
+  int val = 10;
 
   while (val >= 0) {
-    sum += val;
+    std::cout << val << "  ";
     val--;
   }
-  std::cout << "Sum of 1 to 10 inclusive is " << sum << std::endl;
+  std::cout << std::endl;
 
   return 0;
 }
 
 /*
 >>> Execution Result:
-Sum of 1 to 10 inclusive is 55
+10  9  8  7  6  5  4  3  2  1  0
  */

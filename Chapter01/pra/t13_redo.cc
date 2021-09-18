@@ -24,11 +24,9 @@ void t9() {
 }
 
 void t10() {
-  int sum = 0;
-
   for (int val = 10; val >= 0; val--)
-    sum += val;
-  std::cout << "Sum of 1 to 10 includsive is " << sum << std::endl;
+    std::cout << val << "  ";
+  std::cout << std::endl;
   std::cout << std::endl;
 }
 
@@ -46,7 +44,7 @@ void t11() {
 >>> Execution Result:
 Sum of 50 to 100 includsive is 3825
 
-Sum of 1 to 10 includsive is 55
+10  9  8  7  6  5  4  3  2  1  0
 
 Please enter the start and end ranges:
 12 15
